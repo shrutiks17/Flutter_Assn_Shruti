@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously, unused_element
+
 import 'package:flutter/material.dart';
 import 'package:product_management/models/product.dart';
 import 'package:product_management/providers/product_provider.dart';
