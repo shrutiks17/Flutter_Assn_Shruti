@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/product.dart';
 
 class ApiService {
-  static const String _baseUrl = 'http://192.168.29.149:3000';
+  static const String _baseUrl = 'http://172.20.10.4:3000';
   static const Duration _timeout = Duration(seconds: 10);
 
   static Future<http.Response> _requestWithTimeout(Future<http.Response> request) async {
